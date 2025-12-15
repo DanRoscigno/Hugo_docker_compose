@@ -1,4 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'OSR October'
 theme = 'ananke'
+
+[params]
+  body_classes = "baskervvile bg-near-white"
+  post_content_classes = "baskervvile bg-near-white"
+  # I don't use commento, but I use the commento partial
+  commentoEnable = true
+  custom_css = ["css/custom.css"]
